@@ -49,4 +49,6 @@ else {
 
 }
 
-if (computerMove == 'nieznany ruch')
+if (computerMove == 'nieznany ruch') {
+    printMessage("błąd")
+}
