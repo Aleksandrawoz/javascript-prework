@@ -11,6 +11,7 @@ function getMoveName(argMoveId){
     return 'nieznany ruch';
   }
   function displayResult(argComputerMove, argPlayerMove) {
+    console.log('moves:', argComputerMove, argPlayerMove);
     if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
         printMessage('Ty wygrywasz!');
     } else if (argComputerMove == 'papier' && argPlayerMove == 'nożyce') {
