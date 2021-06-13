@@ -38,11 +38,10 @@
 
         console.log('Wylosowana liczba to: ' + randomNumber);
         
-        let playerMove = getMoveName(playerInput); 
-        
-        let computerMove = getMoveName(randomNumber); displayResult(computerMove, playerMove); { 
-            console.log(computerMove);
-        }
+        const playerMove = getMoveName(playerInput); 
+
+        const computerMove = getMoveName(randomNumber); displayResult(computerMove, playerMove);
+
         /*
         if (randomNumber == 1) {
             computerMove = 'kamień';
